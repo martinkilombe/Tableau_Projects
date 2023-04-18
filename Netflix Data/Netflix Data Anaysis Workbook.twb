@@ -36,7 +36,7 @@
             <column datatype='string' name='director' ordinal='3' />
             <column datatype='string' name='cast' ordinal='4' />
             <column datatype='string' name='country' ordinal='5' />
-            <column datatype='string' name='date_added' ordinal='6' />
+            <column datatype='date' date-parse-format='MMMM dd, yyyy' name='date_added' ordinal='6' />
             <column datatype='integer' name='release_year' ordinal='7' />
             <column datatype='string' name='rating' ordinal='8' />
             <column datatype='string' name='duration' ordinal='9' />
@@ -52,7 +52,7 @@
             <column datatype='string' name='director' ordinal='3' />
             <column datatype='string' name='cast' ordinal='4' />
             <column datatype='string' name='country' ordinal='5' />
-            <column datatype='string' name='date_added' ordinal='6' />
+            <column datatype='date' date-parse-format='MMMM dd, yyyy' name='date_added' ordinal='6' />
             <column datatype='integer' name='release_year' ordinal='7' />
             <column datatype='string' name='rating' ordinal='8' />
             <column datatype='string' name='duration' ordinal='9' />
@@ -89,7 +89,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>type</remote-name>
@@ -105,7 +104,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>title</remote-name>
@@ -121,7 +119,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>director</remote-name>
@@ -137,7 +134,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>cast</remote-name>
@@ -153,7 +149,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>country</remote-name>
@@ -169,23 +164,18 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>date_added</remote-name>
-            <remote-type>130</remote-type>
+            <remote-type>7</remote-type>
             <local-name>[date_added]</local-name>
             <parent-name>[netflix_titles]</parent-name>
             <remote-alias>date_added</remote-alias>
             <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
             <collation flag='1' name='LEN_R150_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>release_year</remote-name>
@@ -200,7 +190,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>rating</remote-name>
@@ -216,7 +205,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>duration</remote-name>
@@ -232,7 +220,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>listed_in</remote-name>
@@ -248,7 +235,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>description</remote-name>
@@ -264,7 +250,6 @@
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
@@ -272,7 +257,7 @@
       <_.fcp.ObjectModelTableType.true...column caption='netflix_titles' datatype='table' name='[__tableau_internal_object_id__].[netflix!titles_E048A2F8DA814AC7A54C9B505A060BAD]' role='measure' type='quantitative' />
       <column caption='Cast' datatype='string' name='[cast]' role='dimension' type='nominal' />
       <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
-      <column caption='Date Added' datatype='string' name='[date_added]' role='dimension' type='nominal' />
+      <column caption='Date Added' datatype='date' name='[date_added]' role='dimension' type='ordinal' />
       <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
       <column caption='Director' datatype='string' name='[director]' role='dimension' type='nominal' />
       <column caption='Duration' datatype='string' name='[duration]' role='dimension' type='nominal' />
@@ -282,7 +267,20 @@
       <column caption='Show Id' datatype='string' name='[show_id]' role='dimension' type='nominal' />
       <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
       <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:type:nk]' type='palette'>
+            <map to='#d3293d'>
+              <bucket>&quot;Movie&quot;</bucket>
+            </map>
+            <map to='#f5715d'>
+              <bucket>&quot;TV Show&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
@@ -299,7 +297,7 @@
                   <column datatype='string' name='director' ordinal='3' />
                   <column datatype='string' name='cast' ordinal='4' />
                   <column datatype='string' name='country' ordinal='5' />
-                  <column datatype='string' name='date_added' ordinal='6' />
+                  <column datatype='date' date-parse-format='MMMM dd, yyyy' name='date_added' ordinal='6' />
                   <column datatype='integer' name='release_year' ordinal='7' />
                   <column datatype='string' name='rating' ordinal='8' />
                   <column datatype='string' name='duration' ordinal='9' />
@@ -313,30 +311,83 @@
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
   </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_9CED637B473D46FA80B2B6F31343ACB2]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Total Movies and Tv Shows Per Year' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='Type' />
+        <param name='target' value='Total Movies and Tv Shows Per Year' />
+      </command>
+    </action>
+  </actions>
   <worksheets>
-    <worksheet name='Sheet 1'>
+    <worksheet name='Total Movies and Tv Shows Per Year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#e15759' fontsize='18'>Total Movies &amp; Tv Shows by Years</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
-          <datasources />
+          <datasources>
+            <datasource caption='netflix_titles (netflix_titles)' name='federated.05dn4q80ggqoqr19b6f3m1mla8jr' />
+          </datasources>
+          <datasource-dependencies datasource='federated.05dn4q80ggqoqr19b6f3m1mla8jr'>
+            <column-instance column='[show_id]' derivation='CountD' name='[ctd:show_id:qk]' pivot='key' type='quantitative' />
+            <column caption='Date Added' datatype='date' name='[date_added]' role='dimension' type='ordinal' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column caption='Show Id' datatype='string' name='[show_id]' role='dimension' type='nominal' />
+            <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+            <column-instance column='[date_added]' derivation='Year' name='[yr:date_added:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.05dn4q80ggqoqr19b6f3m1mla8jr].[ctd:show_id:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+            <format attr='color' value='#ffffff' />
+            <format attr='font-weight' value='bold' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
               <breakdown value='auto' />
             </view>
-            <mark class='Automatic' />
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.05dn4q80ggqoqr19b6f3m1mla8jr].[none:type:nk]' />
+              <text column='[federated.05dn4q80ggqoqr19b6f3m1mla8jr].[none:type:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
-        <rows />
-        <cols />
+        <rows>[federated.05dn4q80ggqoqr19b6f3m1mla8jr].[ctd:show_id:qk]</rows>
+        <cols>[federated.05dn4q80ggqoqr19b6f3m1mla8jr].[yr:date_added:ok]</cols>
       </table>
       <simple-id uuid='{510CD792-3903-411C-9324-068C26B861BD}' />
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='worksheet' maximized='true' name='Total Movies and Tv Shows Per Year'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -352,28 +403,87 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-          <strip size='31'>
+          <strip size='2147483647'>
             <card type='title' />
           </strip>
         </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.05dn4q80ggqoqr19b6f3m1mla8jr].[none:type:nk]' type='color' />
+          </strip>
+        </edge>
       </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.05dn4q80ggqoqr19b6f3m1mla8jr].[none:show_id:nk]</field>
+            <field>[federated.05dn4q80ggqoqr19b6f3m1mla8jr].[yr:date_added:ok]</field>
+          </color-one-way>
+        </highlight>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
       <simple-id uuid='{BEC9800E-776B-458D-A6A0-373596B5186E}' />
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='Sheet 1' width='192'>
+    <thumbnail height='192' name='Total Movies and Tv Shows Per Year' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
-      AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
-      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
-      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQD
-      kGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBp
-      BiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA
-      0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDN
-      AKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxA
-      mgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZ
-      gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
-      MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
-      fBUOM1sAAAAASUVORK5CYII=
+      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
+      SUVORK5CYII=
     </thumbnail>
   </thumbnails>
 </workbook>
