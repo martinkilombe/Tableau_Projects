@@ -1,0 +1,29 @@
+DESCRIPTION
+The rates are the numbers out of 100,000 people who developed or died from cancer each year.
+
+SUMMARY
+In the following maps, the U.S. states are divided into groups based on the rates at which people developed or died from cancer in 2013, the most recent year for which incidence data are available.
+
+The rates are the numbers out of 100,000 people who developed or died from cancer each year.
+
+Incidence Rates by State
+The number of people who get cancer is called cancer incidence. In the United States, the rate of getting cancer varies from state to state.
+
+*Rates are per 100,000 and are age-adjusted to the 2000 U.S. standard population.
+
+‡Rates are not shown if the state did not meet USCS publication criteria or if the state did not submit data to CDC.
+
+†Source: U.S. Cancer Statistics Working Group. United States Cancer Statistics: 1999–2013 Incidence and Mortality Web-based Report. Atlanta (GA): Department of Health and Human Services, Centers for Disease Control and Prevention, and National Cancer Institute; 2016. Available at: http://www.cdc.gov/uscs.
+
+Death Rates by State
+Rates of dying from cancer also vary from state to state.
+
+*Rates are per 100,000 and are age-adjusted to the 2000 U.S. standard population.
+
+†Source: U.S. Cancer Statistics Working Group. United States Cancer Statistics: 1999–2013 Incidence and Mortality Web-based Report. Atlanta (GA): Department of Health and Human Services, Centers for Disease Control and Prevention, and National Cancer Institute; 2016. Available at: http://www.cdc.gov/uscs.
+
+Source: https://www.cdc.gov/cancer/dcpc/data/state.htm
+
+
+
+DATA SOURCE :https://data.world/adamhelsinger/cancer-rates-by-u-s-state/workspace/file?filename=uscs_map_incidence_all.csv
